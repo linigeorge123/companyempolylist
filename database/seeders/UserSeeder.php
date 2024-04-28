@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
         $user1= User::insert([
              [
                  'name' => 'admin',
-                 'email' => 'admin4@admin.com',
+                 'email' => 'admin@admin.com',
                  'password' =>  Hash::make('password'),
                  'email_verified_at' =>$current_date_time,
                  'created_at'=>$current_date_time,
